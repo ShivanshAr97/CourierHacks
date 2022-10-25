@@ -1,6 +1,5 @@
 import React from 'react'
 import { useState } from 'react'
-import { AiOutlineCheckCircle } from 'react-icons/ai';
 
 const Newsletter = () => {
     const [sub, setSub] = useState('Subscribe')

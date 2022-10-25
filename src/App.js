@@ -1,18 +1,17 @@
-import './App.css';
 import { Route, Routes } from 'react-router-dom';
 
-import Navbar2 from './components/Navbar2';
-import Home2 from './components/Home2';
-import FitnessNav from './nav_components/FitnessNav';
-import EatingNav from './nav_components/EatingNav';
-import WeightNav from './nav_components/WeightNav';
-import WellnessNav from './nav_components/WellnessNav';
-import HealthyNav from './nav_components/HealthyNav';
-import EngineeringNav from './nav_components/EngineeringNav';
-import NewBlog from './components/NewBlog';
-import Blog from './components/Blog';
-import Email from './nav_components/Email';
-import NavbarComponents from './nav_components/NavbarComponents';
+import Navbar2 from './components/Navbar2.js';
+import Home2 from './components/Home2.js';
+import FitnessNav from './nav_components/FitnessNav.js';
+import EatingNav from './nav_components/EatingNav.js';
+import WeightNav from './nav_components/WeightNav.js';
+import WellnessNav from './nav_components/WellnessNav.js';
+import HealthyNav from './nav_components/HealthyNav.js';
+import EngineeringNav from './nav_components/EngineeringNav.js';
+import NewBlog from './components/NewBlog.js';
+import Blog from './components/Blog.js';
+import Email from './nav_components/Email.js';
+import NavbarComponents from './nav_components/NavbarComponents.js';
 import banner8 from '../src/banner/banner8.jpg';
 
 

@@ -1,10 +1,10 @@
 import React from 'react'
-import BlogContent from './BlogContent'
-import Fitness from './Fitness'
-import Follow from './Follow'
-import Footer from './Footer'
-import MightLike from './MightLike'
-import Newsletter from './Newsletter'
+import BlogContent from './BlogContent.js'
+import Fitness from './Fitness.js'
+import Follow from './Follow.js'
+import Footer from './Footer.js'
+import MightLike from './MightLike.js'
+import Newsletter from './Newsletter.js'
 
 const Blog = () => {
   return (

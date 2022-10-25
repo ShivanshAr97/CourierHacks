@@ -1,15 +1,14 @@
 import React from 'react'
-import banner1 from '../banner/banner1.webp';
 import banner2 from '../banner/banner2.webp';
-import Newsletter from './Newsletter';
-import Trending from './Trending';
-import Fitness from './Fitness';
-import Weight from './Weight';
-import Follow from './Follow';
-import MightLike from './MightLike';
-import Footer from './Footer';
-import Carousel from './Carousel';
-import CarouselSide from './CarouselSide';
+import Newsletter from './Newsletter.js';
+import Trending from './Trending.js';
+import Fitness from './Fitness.js';
+import Weight from './Weight.js';
+import Follow from './Follow.js';
+import MightLike from './MightLike.js';
+import Footer from './Footer.js';
+import Carousel from './Carousel.js';
+import CarouselSide from './CarouselSide.js';
 
 const Home = () => {
     return (
