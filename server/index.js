@@ -1,17 +1,16 @@
-// import { CourierClient } from "@trycourier/courier";
 const CourierClient = require('@trycourier/courier')
 
-const courier = CourierClient({ authorizationToken: "pk_test_X1PVT7H5N0MCKHGNVBQXWMTH68VQ" });
+const courier = CourierClient({ authorizationToken: API_KEY });
 
 const { requestId } = await courier.send({
   message: {
     to: {
       data: {
-        name: "Shivansh Arora",
+        name: NAME,
       },
-      email: "shivansh.arora973@gmail.com",
+      email: EMAIL,
     },
-    template: "7G65GYEYFCMHTGHT1483FCMQ144Z",
+    template: API_TEMPLATE,
     routing: {
       method: "single",
       channels: ["email"],
