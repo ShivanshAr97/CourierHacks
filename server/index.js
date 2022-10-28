@@ -1,8 +1,12 @@
 const CourierClient = require('@trycourier/courier')
 
-const courier = CourierClient({ authorizationToken: API_KEY });
+const APIKEY = process.env.API_KEY
+const NAME = process.env.API_KEY
+const EMAIL = process.env.API_KEY
+const APITEMPLATE = process.env.API_KEY
+const courier = CourierClient({ authorizationToken: APIKEY });
 
-const { requestId } = await courier.send({
+const { requestId } =  courier.send({
   message: {
     to: {
       data: {
@@ -10,7 +14,7 @@ const { requestId } = await courier.send({
       },
       email: EMAIL,
     },
-    template: API_TEMPLATE,
+    template: APITEMPLATE,
     routing: {
       method: "single",
       channels: ["email"],
